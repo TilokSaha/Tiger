@@ -1,0 +1,75 @@
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+.nav-link{
+  color: white!important;
+}
+body{
+  background-color: #e1e1e1;
+  padding: 0;
+}
+.bg-light {
+    background-color: #222!important;
+}
+.navbar-brand{
+  font-size: 300%;
+}
+footer{
+  background-color: #222!important;
+  color: gray;
+  position: relative;
+  width: auto;
+  overflow: hidden;
+}
+.jumbotron{
+  position: relative;
+  margin-top:150px;
+  background: url(img/tiger.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: rusty;
+  height: 350px;
+  width: auto;
+  overflow: hidden;
+  /* color: white; */
+}
+@font-face {
+  font-family: rusty;
+  src:url(fonts/Rusty.ttf);
+}
+@font-face {
+  font-family: jam;
+  src:url(fonts/CherryJam.ttf);
+}
+.article{
+  margin: 20px 0;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.3), 5px 5px 5px 3px rgba(0,0,0,0.2);
+  width: auto;
+  overflow: hidden;
+  /* border: 1px solid black; */
+}
+.pic-quote{
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+.headings{
+  font-family: jam;
+  width: auto;
+  overflow: hidden;
+  font-size: 40px!important;
+}
+a{
+  color: gray;
+}
+.icon-3x{
+  font-size: 40px!important;
+  transition: 0.2s;
+}
+i:hover{
+  font-size: 60px!important;
+
+}
